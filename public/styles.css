@@ -1,0 +1,14 @@
+.faded-image-wrapper {
+    position: relative;
+    display: inline-block; /* Ensure it fits the image size */
+  }
+  
+  .faded-image {
+    display: block;
+    border-radius: 10px;
+    width: 100%; /* Ensure the image scales to its container */
+    height: auto; /* Maintain aspect ratio */
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+  }
+  
